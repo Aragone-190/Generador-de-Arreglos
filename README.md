@@ -29,13 +29,13 @@ Este proyecto es ideal para organizar datos cuando trabajas con hojas de Excel c
 2. Ejecuta el siguiente comando para generar el archivo `.txt`:
 
    ```bash
-   node leerSecciones.js
+   node Arreglos.js
    ```
 
-Esto generará un archivo `secciones.txt` con el contenido estructurado como:
+Esto generará un archivo `arreglo.txt` con el contenido estructurado como:
 
 ```txt
-384, 385, 2030, 2031, 2032, 399, 2027, 2064, 2066, 2065, 2080, 356, 357, 370, 393, 394, 358, 359, 360, 361, 395
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
 ```
 
 **Ejemplo de archivo Excel:**
