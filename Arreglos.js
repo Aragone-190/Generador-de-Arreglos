@@ -3,7 +3,7 @@ const path = require("path");
 const fs = require("fs");
 
 // Leer el archivo Excel
-const workbook = xlsx.readFile(path.join(__dirname, "secciones.xlsx"));
+const workbook = xlsx.readFile(path.join(__dirname, "arreglo.xlsx"));
 const sheetName = workbook.SheetNames[13];
 const sheet = workbook.Sheets[sheetName];
 
@@ -36,5 +36,5 @@ for (const arr of Object.values(groupedSections)) {
 }
 
 // Guardar en archivo .txt
-fs.writeFileSync("secciones.txt", output);
-console.log("✅ Archivo 'secciones.txt' generado con solo los valores.");
+fs.writeFileSync("arreglo.txt", output);
+console.log("✅ Archivo 'arreglo.txt' generado con solo los valores.");
